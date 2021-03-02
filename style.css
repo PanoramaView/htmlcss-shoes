@@ -41,12 +41,27 @@ button:hover{
     background-color: yellow;
 }
 /* .img{
-    z-index: 2;
-} */
-.red .img{
-    background-image: url('img/01.png');
+     position: absolute;
+     border: 1px solid black;
+     background-size: contain;
+     background-repeat: no-repeat;
+     z-index: 2;
+}  */
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
+.descr{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    content: 'crazy new model super cool';
+    text-transform: uppercase;
+    z-index: 2;
+}
 
 footer{
     position: absolute;
