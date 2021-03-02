@@ -1,0 +1,21 @@
+*{
+    font-family: 'Recursive', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cheerleader{
+    width: 10%;
+    position: fixed;
+    top:15px;
+    left:15px;
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    border-radius: 20%;
+}
+nav{
+    position: fixed;
+}
+button{
+    border: 1px solid black;
+    border-radius: 50%;
+}
